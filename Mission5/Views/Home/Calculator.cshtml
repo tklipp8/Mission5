@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Calcualtor";
+}
+
+<h1 class="text-center">Calculator</h1>
+<p class="text-center">This is a calculator to help you determine the cost of tutoring. I charge a measly $5 per hour to show you how you can become a great baker too (I am the best)</p>
+@*Create an input box to take in how many hours they want to work with me*@
+<div class="form-group">
+    <label for="hours">Hours</label>
+    <input type="number" class="form-control" id="hours" name="hours" />
+</div>
+<br />
+<button type="submit" class="btn btn-primary" id="calculate">Calculate</button>
+<br />
+@*Create a label to display the cost*@
+<div class="form-group">
+	<label for="cost">Cost in $</label>
+	<input type="text" class="form-control" id="cost" name="cost" readonly />
+</div>
+
