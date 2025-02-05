@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Mission5.styles.css" asp-append-version="true" />
+    @*This is my custom icon for the website. It's a cookie!*@
     <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
 </head>
 <body>
@@ -14,8 +15,9 @@
         <br />
         <br />
         <h1>Baking</h1>
-        <p>Welcome to my hooby! I like baking. Ever since I got married, I've been the baler of the family (mostly) and I've loved baking for my wife. This is to show a bit of the passion that I have for baking.</p> 
+        <p>Welcome to my hooby! I like baking. Ever since I got married, I've been the baker of the family (mostly) and I've loved baking for my wife. This is to show a bit of the passion that I have for baking.</p> 
         <p>
+            @*This is the navigation. It works for all pages. It uses the asp-controller and asp-action to direct it*@
             <a asp-controller="Home" asp-action="Index">Home</a> | <a asp-controller="Home" asp-action="Calculator">Tutor Costs</a>
         </p>
         <main role="main" class="pb-3">
